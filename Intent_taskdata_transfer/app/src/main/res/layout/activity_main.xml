@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Transfer Task(By using Intent)"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:textSize="25dp"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:maxLength="25"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Location"
+        android:textSize="25dp"
+        android:id="@+id/location"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:maxLength="15"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:textSize="25dp"
+        android:id="@+id/email"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Mobile No."
+        android:textSize="25dp"
+        android:id="@+id/mobile"
+        android:textStyle="bold"
+        android:inputType="phone"
+        android:maxLength="10"
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+
+        />
+
+
+</LinearLayout>

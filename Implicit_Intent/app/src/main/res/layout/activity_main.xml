@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent : from one activity to system app"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some data"
+        android:gravity="center"
+        android:id="@+id/ed_text"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dail"
+        android:textSize="25dp"
+        android:id="@+id/dail"
+        android:textAllCaps="false"
+        android:onClick="dail"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="25dp"
+        android:id="@+id/share"
+        android:onClick="share"
+        android:textAllCaps="false"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Whatsapp"
+        android:textSize="25dp"
+        android:id="@+id/whatsapp"
+        android:onClick="whatsapp"
+        android:textAllCaps="false"
+
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Url"
+        android:textSize="25dp"
+        android:id="@+id/site"
+        android:onClick="site"
+        android:textAllCaps="false"
+
+        tools:ignore="OnClick" />
+
+</LinearLayout>
